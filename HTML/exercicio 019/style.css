@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+Em html é id e em css é #
+Em html é class e em css é .
+*/
+body {
+    background-color: rgb(176, 255, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+color: rgb(12, 68, 31);
+}
+#titulo_principal {
+text-align: center;
+background-color:rgb(12, 68, 31);
+color: azure;
+}
+.titulo_secundario {
+    color: rgb(244, 121, 7);
+    border: 0.05em solid;
+}
+h2 {
+color: rgb(9, 126, 68);
+}
+.palavra_chave {
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgb(169, 245, 62);
+}

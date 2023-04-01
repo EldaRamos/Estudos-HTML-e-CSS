@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+h1 {
+    font-size: 3em;
+    border: 5px inset rgb(179, 104, 250);
+    border-radius: 20px;
+    
+    /*border-width: 10px;
+    border-color: blueviolet;
+    border-style: inset;
+    
+    Se eu quiser escrever todos os parâmetros de uma borda em uma única linha posso fazer da forma abaixo, nessa ordem:
+    */
+}
+nav {
+    background-color: rgb(103, 101, 101);
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.662);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 30px 0 0;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: rgb(210, 161, 255);
+    
+}
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px  40px;
+}
+.categorias {
+    text-align: center;
+}
+h2 {
+    color: white;
+    background-color:rgb(179, 104, 250);
+    padding: 5px;
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+footer {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.rodape {
+    text-align: center;
+    
+}

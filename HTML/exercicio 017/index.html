@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap');
+        @font-face {
+            font-family: 'maquina de escrever';
+            src: url('fontes/JMH Typewriter.otf') format('opentype'), url('fontes/JMH Typewriter.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        h1, h2{
+            font-family: 'Alkatra';
+        }
+        p {
+            font-family: 'maquina de escreverr56';
+        }
+        
+        /*Medidas Absolutas::
+        cm (centímetro), mm (milímetro), in (polegada), px (pixel), pt (ponto), pc (paica)
+        Medidas Relativas:
+        em (tamanho atual da fonte), ex (tamanho relativo a altura x da fonte), rem (relativo ao root ou seja, a raiz da fonte), vw (largura da viewport (tamanho da tela)), vh (relacionado à altura da viewport), % (porcentagem)
+        16px corresponde ao tamanho padrão do corpo do texto, que geralmente é equivalente a 1em.
+        Recomendação oficial da W3C: usar em ou px.
+
+
+        Parâmetros de fontes: 
+        Para declarar a família de fonte utilizada usamos: font-family
+        Para declarar o peso da fonte usamos: font-weight
+        Para declarar o tamanho da fonte usamos: font-size
+        Para declarar o estilo da fonte usamos: font-style
+
+        Exemplos: 
+        font-family: 'arial', sans-serif; 
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+
+        Caso queiramos declarar todos esses parâmetros em uma única linha usamos a propriedade font, com os valores: font-style font-weight font-size font-family, nessa ordem respectivamente. 
+
+        Exemplo: 
+        font: italic bolder 3em 'arial', sans-serif;
+        */
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, dolorum! Tempora, sed molestiae maiores possimus in minima ducimus unde nihil dicta omnis, incidunt ea quisquam, illo esse vitae atque facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ducimus cumque voluptates eius praesentium culpa unde asperiores possimus, iusto odio aliquam hic, quasi ex fugit molestias qui? Eos, itaque quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse odit ratione, sit quidem cupiditate eos recusandae neque voluptatum deserunt error facilis nulla qui, est provident iure! Dolores omnis officia quod?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quibusdam similique aperiam in rerum, hic reprehenderit quisquam ullam. Sed officiis ipsam facere placeat ullam est cum esse aliquam hic perspiciatis.
+   
+    </p>
+</body>
+</html>

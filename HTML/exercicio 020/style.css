@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*
+3 = id
+.= class
+: = pseudoclass
+:: = pseudoelement
+> = children
++ = brother
+*/
+div {
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+div:hover {
+    background-color: green;
+}
+div:active {
+    background-color: red;
+}
+.gatilho {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50px;
+
+}
+.gatilho:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    background-color: red;
+    color: black;
+}
+.oculto {
+    display: none;
+}
+.gatilho:hover+.oculto{
+    display: block;
+    
+
+}
+li {
+    list-style: none;
+
+}
+li::before {
+    content: 'Amei a serie ';
+}
