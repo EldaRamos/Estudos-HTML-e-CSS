@@ -116,6 +116,8 @@ main a:hover {
 }
 main img {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #img_bugdroid {
     max-width: 350px;
