@@ -167,3 +167,26 @@ footer a:hover {
     color: var(--cor1);
     text-decoration: underline;
 }
+
+/*
+Código epecífico para telas pequenas
+*/ 
+
+@media screen and (max-width: 600px) {
+main h1 {
+    font-size: 1.5em;
+}
+main h2 {
+    font-size: 1em;
+}
+header p {
+    font-size: 1em;
+    padding: 0px 0px 30px;
+}
+nav {
+    text-align: center;
+}
+ nav a {
+    font-size: 1em;
+ }
+ }
