@@ -1,0 +1,68 @@
+.fundo {
+    background: #000000;
+}
+body {
+    font-family: Garamond;
+    min-height: 100vh;
+}
+.principal {
+    margin: 0 200px;
+}
+.topoVermelho {
+    background: #BF2227;
+    padding: 25px 0;
+    margin: 0 0 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.tituloPrincipal {
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    color: #FFFFFF;
+    border-bottom: 3px solid #BF2227;
+    transform: scale(0.8);
+}
+.elenco {
+    transform: scale(0.8);
+    text-align: center;
+}
+.personagens {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    
+}
+.fotoPersonagens {
+    width: 60%;
+}
+.personagens p {
+    color: #FFFFFF;
+    padding: 20px;
+    
+}
+.voltar {
+    text-transform: uppercase;
+    text-align: center;
+    transform: scale(0.8);
+    margin: 0 0 80px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 3px solid #BF2227;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transform: scale(5.0);
+}
+a:hover {
+    background: #BF2227;
+    
+}
+footer {
+    color: #FFFFFF;
+    text-align: center;
+    background: #BF2227;
+    padding: 20px 0;
+    font-size: 15px;
+}

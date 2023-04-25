@@ -1,0 +1,153 @@
+.fundo {
+    background: #000000;
+}
+
+body {
+    font-family: Garamond;
+    min-height: 100vh;
+}
+.principal {
+    margin: 0 200px;
+}
+.banner{
+    width: 100%;
+}
+.tituloPrincipal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 85px;
+    transform: scale(0.8);
+    color: #FFFFFF;
+}
+.subtituloPrincipal {
+    text-align: center;
+    font-size: 40px;
+    transform: scale(0.8);
+    color: #FFFFFF;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 100px;
+    border: 3px solid #BF2227;
+    border-radius: 15px; 
+    color: #FFFFFF;
+}
+nav a:hover {
+    background: #BF2227;
+}
+.itensNavegacao {
+    text-align: center;  
+    padding: 35px 0;
+    margin: 40px 0;
+    border-bottom: 3px solid #BF2227;
+
+}
+.itensNavegacao li {
+    display: inline-block;
+    width: 30%;
+}
+.resumo {
+    display: inline-block;
+    padding: 0 40px 40px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.fotoResumo {
+    float: right;
+    padding: 0 0 20px 30px;
+    
+}
+.tituloResumo {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0 0 25px 0;
+    color: #FFFFFF;
+}
+.resumo p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 35px;
+    color: #FFFFFF;
+}
+.fraseDexter {
+    font-style: italic;
+    font-size: 40px;
+    color: #BF2227;
+    margin: 50px auto 30px;
+    width: 80%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.assinaturaDexter {
+    font-size: 20px;
+    font-weight:bold;
+    color: #CCCCCC;
+    text-transform: uppercase;
+    text-align: right;
+    width: 80%;
+    margin: 0 70px 70px;
+}
+.tituloPersonalidade {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 70px;
+    color: #FFFFFF;
+}
+.personalidade {
+    margin: 0 auto 70px;
+    text-align: center;
+}
+.personalidade p {
+    text-align: justify;
+    font-size: 25px;
+    padding: 0 10%;
+    line-height: 30px;
+    text-indent: 35px;
+    color: #FFFFFF;
+}
+.tituloTrofeus {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto 70px;
+    color: #FFFFFF;
+}
+.trofeus p {
+    text-align: justify;
+    font-size: 25px;
+    width: 80%;
+    line-height: 30px;
+    text-indent: 35px;
+    margin: 0 auto 70px;
+    color: #FFFFFF;
+}
+.tituloRevival {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 70px;
+    color: #FFFFFF;
+}
+.revival p {
+    text-align: justify;
+    font-size: 25px;
+    width: 80%;
+    line-height: 30px;
+    text-indent: 35px;
+    margin: 0 auto 50px;
+    color: #FFFFFF;
+}
+.video {
+    width: 55%;
+    margin: 0 auto 50px;
+}
+footer {
+    color: #FFFFFF;
+    text-align: center;
+    background: #BF2227;
+    padding: 25px 0;
+    font-size: 15px;
+}
