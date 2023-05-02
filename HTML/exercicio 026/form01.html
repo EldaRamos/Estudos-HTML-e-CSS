@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Formulário</title>
+</head>
+<body>
+    <h1>Meu Primeiro Formulário</h1>
+    <form action="" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iusuario">Usuário:<label>
+                <input type="text" name="usuario" id="iusuario" required minlength="5" size="20" placeholder="mínimo 5 letras" autocomplete="username">
+            </p>
+            <!--minlength - corresponde ao mínimo de caracteres permitidos
+            required - significa campo obrigatório
+            size - diminui  tamanho da caixa
+            placeholder - é uma dica para ficar dentro do campo
+            autocomplete "off" - desliga o preenchimento automático
+            value - é o valor que já vem colocado no campo.
+            fieldset - agrupa campos semelhantes
+            -->
+            <p><label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" autocomplete="current-password">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail"
+                autocomplete="email" placeholder="nom@domínio">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{5}-\d{4}$" placeholder="(99)99999-9999">
+            </p>
+            <p>
+                <label for="regiao">Região</label>
+                <select name="regiao" id="regiao">
+                    <option value="" selected>--- escolha ---</option>
+                    <optgroup label="regiões brasileiras">
+                        <option value="">Norte</option>
+                        <option value="">Nordeste</option>
+                        <option value="">Sul</option>
+                        <option value="">Suldeste</option>
+                        <option value="">Centro-oeste</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="profissoes">
+                <datalist id="profissoes">
+                    <option>Professor</option>
+                    <option>Bombeiro</option>
+                    <option>Policial</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="imensagem">Mensagem:</label> <br>
+                <textarea name="mensagem" id="imensagem" cols="30" rows="10"></textarea>
+            </p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="ifeminino" value="F"><label for="ifeminino">Feminino</label> <br>
+                <input type="radio" name="sexo" id="imasculino" value="M"><label for="imasculino">Masculino</label>
+            </fieldset>
+
+        </fieldset>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.5">
+        </p>
+        <p>
+            <label for="idata">Período</label>
+            <input type="date" name="data" id="idata" value="2023-05-01">
+        </p>
+        <p>
+            <label for="ihora">Horário:</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <fieldset>
+            <legend>Séries Favoritas</legend>
+            <input type="checkbox" name="the" id="ithe" checked><label for="ithe">The Last of Us</label> <br>
+            <input type="checkbox" name="dex" id="idex"><label for="idex">Dexter</label><br>
+            <input type="checkbox" name="fri" id="ifri"><label for="ifri">Friends</label><br>
+            <input type="checkbox" name="gre" id="igre"><label for="igre">Grey's Anatomy</label><br>
+            <input type="checkbox" name="bre" id="ibre"><label for="ibre">Breaking Bad</label><br>
+            <input type="checkbox" name="pri" id="ipri"><label for="ipri">Prison Break</label> 
+        </fieldset>
+        <fieldset>
+            <legend>Cor favorita</legend>
+            <input type="color" name="cor" id="icor"> <br>
+            <input type="range" name="" id="" min="1" max="5"> intensidade da cor
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+        <p>
+            <input type="reset" value="limpar">
+        </p>
+
+
+    </form>
+</body>
+</html>
