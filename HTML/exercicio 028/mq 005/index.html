@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/tela.css" media="screen">
+    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+</head>                                         
+<body>
+    <header>
+        <h1>Notícias</h1>
+        <i id="burguer" class="material-icons" onclick="cliqueMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Tecnologia</a></li>
+            </ul>
+
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Estou aprendendo media query</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione id voluptate molestiae iure velit nam sed cupiditate quaerat sit explicabo sequi assumenda laudantium ipsa autem omnis et, esse harum rem!
+            Tenetur perferendis dolores, natus ad explicabo, unde magni, quia perspiciatis sint enim ipsa in. Aperiam assumenda id numquam minima necessitatibus. Magni perspiciatis ducimus dolore unde impedit quo fugiat nihil aliquid?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione id voluptate molestiae iure velit nam sed cupiditate quaerat sit explicabo sequi assumenda laudantium ipsa autem omnis et, esse harum rem!
+            Tenetur perferendis dolores, natus ad explicabo, unde magni, quia perspiciatis sint enim ipsa in. Aperiamassumenda id numquam minima necessitatibus. Magni perspiciatis ducimus dolore unde impedit quo fugiat nihilaliquid?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione id voluptate molestiae iure velit nam sed cupiditate quaerat sit explicabo sequi assumenda laudantium ipsa autem omnis et, esse harum rem!
+            Tenetur perferendis dolores, natus ad explicabo, unde magni, quia perspiciatis sint enim ipsa in. Aperiaassumenda id numquam minima necessitatibus. Magni perspiciatis ducimus dolore unde impedit quo fugiat nihialiquid?</p>
+        </article>
+    </main>
+    <script>
+        function cliqueMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
+'
